@@ -1,5 +1,19 @@
 * {
     box-sizing: border-box;
+}
+
+.article,
+.body,
+.main-title,
+.nav,
+.title,
+.subtitle,
+.shoes-image,
+.section-about,
+.first-paragraph,
+.text,
+.nav-list,
+.nav-item {
     margin: 0;
     padding: 0;
 }
@@ -16,21 +30,37 @@
 }
 .wrapper {
     width: 1770px;
-    max-width: 100%;
-    padding: 101px 76px 73px 75px;
     margin: 0 auto;
+}
+
+.article {
+    padding: 101px 76px 73px 75px;
+}
+
+.content {
+    width: 1095px;
+}
+
+.section-about {
+    padding-top: 50px;
+}
+
+.section-about :nth-child(8) {
+    margin-bottom: 22px;
 }
 
 .main-title{
     font-size: 50px;  
-    padding-bottom: 52px;
-    }
+    margin-bottom: 52px;
+    line-height: 1.3;
+}
 
 .nav {
     padding-top: 50px;
-    padding-bottom: 49px;
-    }
-
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .title {
     font-size: 22px;
@@ -47,22 +77,28 @@
 
 .nav-link {
     text-decoration: none;
-}
-
-.section-before-purchase,
-.section-before-use,
-.section-daily-care {
-    padding-top: 50px;
+    color:#525252;
 }
 
 .first-paragraph {
-    padding-bottom: 22px;
+    margin-bottom: 22px;
+}
+.shoes-img {
+    margin-bottom: 50px;
 }
 
 .img-shoe-brushes {
-    padding-top: 48px;
-    padding-bottom: 50px;
+    margin-top: 48px;
+    margin-bottom: 52px;
 }
+
+nav-list :last-child {
+    margin-bottom: 0;
+}
+
+
+
+
 
 
 
