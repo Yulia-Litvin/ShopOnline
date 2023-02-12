@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"), local("Lato-Regular"), 
+        url("fonts/lato-regular.woff2") format("woff2"),
+        url("fonts/lato-regular.woff") format("woff");
+        font-weight: 400;
+        font-display: auto;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"), local("Lato-Bold"), 
+        url("fonts/lato-bold.woff2") format("woff2"),
+        url("fonts/lato-bold.woff") format("woff");
+        font-weight: 700;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,8 +23,9 @@
     margin: 0;
     background-color:#ffffff;
     color:#ae0f0f;
-    font-family: "Arial";
+    font-family: "Lato", "Arial", serif;
     font-size: 22px;
+    font-weight: 400;
     color: #2d2d2d;
     text-align: left;
     line-height: 33px; 
@@ -48,6 +66,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 22px;
+    font-weight: normal;
 }
 
 .subtitle {
