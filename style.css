@@ -30,14 +30,6 @@
     padding-top: 50px;
 }
 
-.section-about :nth-child(8) {
-    margin-bottom: 22px;
-}
-
-.section-second-stage :nth-child(5) {
-    margin-bottom: 22px;
-}
-
 .main-title{
     margin-top: 0;
     margin-bottom: 52px;
@@ -82,19 +74,21 @@
 
 .text {
     margin-top: 0;
+}
+
+.text-type-main:not(:last-of-type) {
+    margin-bottom: 22px;
+}
+
+.text-type-main:last-of-type {
     margin-bottom: 0;
 }
 
-.first-paragraph {
-    margin-top: 0;
-    margin-bottom: 22px;
-}
-.shoes-img {
-    margin-bottom: 50px;
+.text-type-alt {
+    margin-bottom: 0;
 }
 
-.img-shoe-brushes {
-    margin-top: 50px;
+.shoes-img {
     margin-bottom: 50px;
 }
 
