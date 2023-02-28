@@ -1,0 +1,25 @@
+.nav__list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.nav__item {
+    font-size: 16px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color:#525252;
+}
+
+.nav {
+    padding-top: 50px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav__list :last-child {
+    margin-bottom: 0;
+}

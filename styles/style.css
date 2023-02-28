@@ -34,72 +34,44 @@
 .wrapper {
     width: 1770px;
     margin: 0 auto;
+    padding: 0 76px;
 }
 
 .article {
-    padding: 101px 76px 73px 75px;
+    padding-top: 101px;
+    padding-bottom: 73px;
 }
 
 .content {
-    width: 1095px;
+    max-width: 1095px;
 }
 
-.section-about {
+.section {
     padding-top: 50px;
 }
 
-.main-title{
-    margin-top: 0;
-    margin-bottom: 52px;
-    font-size: 50px;  
-    line-height: 1.3;
-}
-
-.nav {
-    padding-top: 50px;
-    line-height: 1.5;
+.section__title {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 22px;
 }
 
-.title {
+.section__subtitle {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 22px;
     font-weight: normal;
-}
-
-.subtitle {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 22px;
-    font-weight: normal;
-}
-
-.nav-list {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 20px;
-}
-
-.nav-item {
-    font-size: 16px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color:#525252;
 }
 
 .text {
     margin-top: 0;
 }
 
-.text-type-main:not(:last-of-type) {
+.text--type--main:not(:last-of-type) {
     margin-bottom: 22px;
 }
 
-.text-type-main:last-of-type {
+.text--type--main:last-of-type {
     margin-bottom: 0;
 }
 
@@ -107,13 +79,11 @@
     margin-bottom: 0;
 }
 
-.shoes-img {
+.article__image--shoes {
     margin-bottom: 50px;
 }
 
-nav-list :last-child {
-    margin-bottom: 0;
-}
+
 
 
 
