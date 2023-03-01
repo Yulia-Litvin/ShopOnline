@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Lato";
     src: local("Lato"), local("Lato-Regular"), 
-        url("fonts/lato-regular.woff2") format("woff2"),
-        url("fonts/lato-regular.woff") format("woff");
+        url("../fonts/lato-regular.woff2") format("woff2"),
+        url("../fonts/lato-regular.woff") format("woff");
         font-weight: 400;
         font-display: auto;
 }
@@ -10,8 +10,8 @@
 @font-face {
     font-family: "Lato";
     src: local("Lato"), local("Lato-Bold"), 
-        url("fonts/lato-bold.woff2") format("woff2"),
-        url("fonts/lato-bold.woff") format("woff");
+        url("../fonts/lato-bold.woff2") format("woff2"),
+        url("../fonts/lato-bold.woff") format("woff");
         font-weight: 700;
 }
 
@@ -68,20 +68,21 @@
 }
 
 .text--type--main:not(:last-of-type) {
-    margin-bottom: 22px;
+    margin-bottom: 33px;
 }
 
 .text--type--main:last-of-type {
+    margin-bottom: 10px;
+}
+
+.text--type--alt {
     margin-bottom: 0;
 }
 
-.text-type-alt {
-    margin-bottom: 0;
-}
-
-.article__image--shoes {
+.article__image {
     margin-bottom: 50px;
 }
+
 
 
 
